@@ -16,7 +16,6 @@
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
       onsubmit="onSubmit()"
-      autocomplete="off"
     >
       <fieldset class="block">
         <legend>Personal information</legend>
@@ -27,6 +26,7 @@
             type="text"
             name="surname"
             id="surname"
+            autocomplete="off"
           >
         </div>
 
@@ -36,6 +36,7 @@
             type="text"
             name="name"
             id="name"
+            autocomplete="off"
           >
         </div>
 
@@ -137,12 +138,6 @@
             id="cars"
             multiple
           >
-            <option
-              value=""
-              disabled
-              selected
-            >
-            </option>
             <option value="lada">Lada</option>
             <option value="audi">Audi</option>
             <option value="bmw">BMW</option>
